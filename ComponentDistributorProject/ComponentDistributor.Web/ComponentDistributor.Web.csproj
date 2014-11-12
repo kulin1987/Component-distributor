@@ -175,7 +175,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -256,6 +255,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ComponentDistributor.Data.Models\ComponentDistributor.Data.Models.csproj">
+      <Project>{17b0e499-c553-4167-950c-d635a5152fe9}</Project>
+      <Name>ComponentDistributor.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ComponentDistributor.Data\ComponentDistributor.Data.csproj">
+      <Project>{8ba2c263-b5e3-422a-bc20-46e22e65f2e0}</Project>
+      <Name>ComponentDistributor.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

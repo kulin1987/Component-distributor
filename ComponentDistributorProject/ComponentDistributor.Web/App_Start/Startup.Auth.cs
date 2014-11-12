@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using ComponentDistributor.Web.Models;
+using ComponentDistributor.Data;
+using ComponentDistributor.Data.Models;
 
 namespace ComponentDistributor.Web
 {

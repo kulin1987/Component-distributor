@@ -11,6 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using ComponentDistributor.Web.Models;
+using ComponentDistributor.Data.Models;
+using ComponentDistributor.Data;
 
 namespace ComponentDistributor.Web
 {
