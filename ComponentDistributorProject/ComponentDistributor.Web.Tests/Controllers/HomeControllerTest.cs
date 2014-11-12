@@ -7,7 +7,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ComponentDistributor.Web;
 using ComponentDistributor.Web.Controllers;
 
-namespace ComponentDistributor.Tests.Controllers
+namespace ComponentDistributor.Web.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

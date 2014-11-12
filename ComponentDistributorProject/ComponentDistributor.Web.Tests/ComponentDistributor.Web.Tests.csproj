@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{95F7A86F-F8C0-46B5-B99F-A588DF279DC6}</ProjectGuid>
+    <ProjectGuid>{7A842091-06BB-4A56-B07E-C82BF6A9F49C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ComponentDistributor.Tests</RootNamespace>
-    <AssemblyName>ComponentDistributor.Tests</AssemblyName>
+    <RootNamespace>ComponentDistributor.Web.Tests</RootNamespace>
+    <AssemblyName>ComponentDistributor.Web.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ComponentDistributor.Web\ComponentDistributor.Web.csproj">
-      <Project>{CB34D91B-9F88-4C4E-80A6-6C7EB7494111}</Project>
+      <Project>{1BFC26C4-823D-4864-B456-63593283EB42}</Project>
       <Name>ComponentDistributor.Web</Name>
     </ProjectReference>
   </ItemGroup>
