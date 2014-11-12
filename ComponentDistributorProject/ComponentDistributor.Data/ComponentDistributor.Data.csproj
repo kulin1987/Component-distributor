@@ -55,8 +55,13 @@
     <Compile Include="ApplicationDbContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork\DataProvider.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ComponentDistributor.Data.Contracts\ComponentDistributor.Data.Contracts.csproj">
+      <Project>{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}</Project>
+      <Name>ComponentDistributor.Data.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ComponentDistributor.Data.Models\ComponentDistributor.Data.Models.csproj">
       <Project>{17b0e499-c553-4167-950c-d635a5152fe9}</Project>
       <Name>ComponentDistributor.Data.Models</Name>
@@ -66,6 +71,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -29,15 +29,6 @@ namespace ComponentDistributor.Data.Migrations
                 manager.Create(role);
             }
 
-            if (!context.Roles.Any(r => r.Name == "Owner"))
-            {
-                var store = new RoleStore<IdentityRole>(context);
-                var manager = new RoleManager<IdentityRole>(store);
-                var role = new IdentityRole { Name = "Owner" };
-
-                manager.Create(role);
-            }
-
             if (!context.Users.Any(u => u.UserName == "admin@blog.bg"))
             {
                 var store = new UserStore<ApplicationUser>(context);
@@ -46,16 +37,6 @@ namespace ComponentDistributor.Data.Migrations
 
                 manager.Create(user, "123456");
                 manager.AddToRole(user.Id, "Administrator");
-            }
-
-            if (!context.Users.Any(u => u.UserName == "boss@blog.bg"))
-            {
-                var store = new UserStore<ApplicationUser>(context);
-                var manager = new UserManager<ApplicationUser>(store);
-                var user = new ApplicationUser { UserName = "boss@blog.bg" };
-
-                manager.Create(user, "123456");
-                manager.AddToRole(user.Id, "Owner");
             }
 
             if (!context.Users.Any(u => u.UserName == "user@abv.bg"))
