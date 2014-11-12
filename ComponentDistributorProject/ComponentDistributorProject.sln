@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentDistributor.Web", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentDistributor.Web.Tests", "ComponentDistributor.Web.Tests\ComponentDistributor.Web.Tests.csproj", "{7A842091-06BB-4A56-B07E-C82BF6A9F49C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentDistributor.Data.Contracts", "ComponentDistributor.Data.Contracts\ComponentDistributor.Data.Contracts.csproj", "{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{7A842091-06BB-4A56-B07E-C82BF6A9F49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A842091-06BB-4A56-B07E-C82BF6A9F49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A842091-06BB-4A56-B07E-C82BF6A9F49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{17B0E499-C553-4167-950C-D635A5152FE9} = {CCDB68E6-8662-4D48-813C-FE345F9EBB8A}
 		{1BFC26C4-823D-4864-B456-63593283EB42} = {73EE8054-B5D3-4E19-B0D0-E50A1A13995F}
 		{7A842091-06BB-4A56-B07E-C82BF6A9F49C} = {73EE8054-B5D3-4E19-B0D0-E50A1A13995F}
+		{256BC6C6-1B24-4EC2-A146-9EC38B6FADFD} = {CCDB68E6-8662-4D48-813C-FE345F9EBB8A}
 	EndGlobalSection
 EndGlobal
